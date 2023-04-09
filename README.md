@@ -60,15 +60,17 @@
 <p>
     <b>JSON.stringfy() method</b>
     <p>Converts a JavaScript object or value to a JSON string.</p>
-    <p>Example: <b>JSON.stringfy({name: "John", age: 30})</b></p>
-    <p>This will display as:</p>
-    <p><b>{"name":"John", "age":30}</b></p>
+    <p> <b>Example:</b> </p>
+    <p>let jsonString = '{ "name": "apple", "color": "red" }';</p>
+    <p>let jsonObject = JSON.parse(jsonString);</p>
+    <p><b>console.log(jsonObject.name); // output: "apple"</b></p>
 </p>
 <br>
 <p>
     <b>JSON.parse() method</b>
     <p>Converts a JSON string into a JavaScript object.</p>
-    <p>Example: <b>JSON.parse('{"name":"John", "age":30, "car":null}')</b></p>
-    <p>This will display as:</p>
-    <p><b>{name: "John", age: 30, car: null}</b></p>
+    <p> <b>Example:</b> </p>
+    <p>let jsonObject = { name: "apple", color: "red" };</p>
+    <p>let jsonString = JSON.stringify(jsonObject);</p>
+    <p><b>console.log(jsonString); // output: '{ "name": "apple", "color": "red" }'</b></p>
 </p>
