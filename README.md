@@ -106,3 +106,32 @@
     });</p>
     <p>console.log(jsonString); // output: '{ "name": "apple" }'</p>
 </p>
+<br>
+<h2>Request and response objects</h2>
+<br>
+<ul>
+    <li> <b>Request object</b> </li>     
+        <p>The request object is used by the client (e.g. web browser) to send a request to the web server. The request typically contains information such as the URL being requested, HTTP headers, and any data being sent in the request body. The server then processes the request and generates a response.</p>
+        <p>Here are common request objects in Express.js:</p>
+        <ul>
+            <li> <b>req.params :</b> An object containing properties mapped to the named route “parameters”.</li>
+            <li> <b>req.query :</b> An object containing a property for each query string parameter in the route.</li>
+            <li> <b>req.body :</b> An object containing a property for each body parameter in the route.</li>
+            <li> <b>req.headers :</b> An object containing the request’s HTTP headers.</li>
+            <li> <b>req.cookies :</b> An object containing the cookies sent by the request.</li>
+            <li> <b>req.signedCookies :</b> An object containing the signed cookies sent by the request, unsigned and ready for use.</li>
+            <li> <b>req.ip :</b> A string containing the remote IP address of the request.</li>
+            <li> <b>req.ips :</b> An array of strings containing the remote IP addresses of the request.</li>
+            <li> <b>req.path :</b> A string containing the path part of the request URL.</li>
+            <li> <b>req.host :</b> A string containing the hostname derived from the Host HTTP header.</li>
+            <li> <b>req.hostname :</b> A string containing the hostname derived from the Host HTTP header.</li>
+            <li> <b>req.fresh :</b> A boolean property, “true” when the request is fresh, otherwise “false”.</li>
+            <li> <b>req.stale :</b> A boolean property, “true” when the request is stale, otherwise “false”.</li>
+            <li> <b>req.xhr :</b> A boolean property, “true” when the request’s X-Requested-With header field is “XMLHttpRequest”, otherwise “false”.</li>
+            <li> <b>req.protocol :</b> A string containing the request protocol string: “http” or “https” when requested with TLS. When the “trust proxy” setting is enabled the “X-Forwarded-Proto” header field will be trusted and used.</li>
+            <li> <b>req.secure :</b> A boolean property, “true” when the request is encrypted, otherwise “false”.</li>
+            <li> <b>req.subdomains :</b> An array of subdomains.</li>
+            <li> <b>req.accepts(types) :</b> Checks if the request’s Accept HTTP header field contains the specified content type(s). Returns the best match, or “false” if no match is found.</li>
+            <li>And more</li>
+        </ul>
+</ul>
