@@ -175,3 +175,31 @@
         <p>Here is our team <a href="https://app.getpostman.com/join-team?invite_code=543ca6d41d84a23790f96ca479d8703e&target_code=3b48e90c0bdbc094cde86bcc6e82e710">link</a> </p>
     </li>
 </ul>
+<br>
+<h2>JS promises, Async functions, Sync functions, Async Await statement, Try catch statement, Callback hell</h2>
+<br>
+<p>Just watch <a href="https://www.youtube.com/watch?v=ZYb_ZU8LNxs">this</a> you will have a general understanding of all.</p>
+<br>
+<h2>Module export in js</h2>
+<br>
+<ul>
+    <li>
+        <p>Module export feature allows us to define reusable code in one file and use it in another file. The code you want to make available to other files is exported using the "module.exports" or "exports" object.</p>
+        <p>Here is an example:</p>
+        <p>Here is the file "myModule.js" that we want to export:</p>
+        <pre>
+            <code>
+                const myModule = () => {
+                    console.log("Hello World");
+                }
+                module.exports = myModule;
+            </code>
+            </pre>
+            <p>Here is the file "index.js" that we want to import the module:</p>
+            <pre>
+            <code>
+                const myModule = require("./myModule");
+                myModule(); //output is "Hello,world"
+            </pre>
+    </li>
+</ul>
