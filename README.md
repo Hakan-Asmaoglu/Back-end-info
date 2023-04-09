@@ -22,7 +22,7 @@
 </p><br>
 <p>Then we will write the syntax to reach specific URL. After all URL will automatically change and "All cards" page will display.</p>
 <br>
-<h2>Json</h2>
+<h2>Json methods</h2>
 <p>JSON methods are important because they allow us to work with data in JSON format, which is a common way of exchanging data between web applications and services. When data is exchanged over the internet, it needs to be in a format that both the sending and receiving systems can understand. JSON is a lightweight and easy-to-read format that is widely supported by different programming languages.</p>
 <br>
 <p> <b>In our case we will use it to:</b>
@@ -88,4 +88,19 @@
         return value;
     });</p>
     <p>console.log(jsonObject.color); // output: "green"</p>
+</p>
+<br>
+<b>JSON.stringify() with a replacer function:</b>
+<br>
+<p>This method allows you to customize how the JavaScript object is converted into a JSON string. You can pass a replacer function as the second argument to JSON.stringify(), and it will be called for each key-value pair in the object. The function can modify the value or even delete it by returning undefined. Here's an example:</p>
+<p>
+    <p>let jsonObject = { name: "apple", color: "red" };
+    </p>
+    <p>let jsonString = JSON.stringify(jsonObject, (key, value) => {
+        if (key === 'color') {
+            return undefined;
+        }
+        return value;
+    });</p>
+    <p>console.log(jsonString); // output: '{ "name": "apple" }'</p>
 </p>
