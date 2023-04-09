@@ -144,19 +144,10 @@
 </ul>
 <br>
 <h2>Express sessions</h2>
-<ul>
-    <li><p>Express session is a tool used in web applications to store user information. For example, when a user logs into a website, we can use Express session to store the user's identity information (username, password, etc.). This way, as the user navigates through the website, session information is stored and the user's interactions on the website continue. In this way, users do not have to log in again each time they move from one page to another.
-
-        Using Express session, we can also store user preferences for a web application. For example, we can store a user's language preference and display the website using the language the user prefers each time they visit.
-        
-        Using Express session is quite easy. Developers need to follow a few steps to install the software component and use it in their applications. This way, they can easily store user information in their web application and provide a better user experience.</p></li>
-    <li>The info here is limited. I strongly suggest the 9th video to get deeper understanding of Express sessions: <a href="https://www.youtube.com/watch?v=39znK--Yo1o&list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2">Express.js tutorial</a></li>
-</ul>
+<br>
 <ul>
     <li>
-    <p>Express session is a tool used in web applications to store user information. For example, when a user logs into a website, we can use Express session to store the user's identity information (username, password, etc.). This way, as the user navigates through the website, session information is stored and the user's interactions on the website continue. In this way, users do not have to log in again each time they move from one page to another.</p>
-    <p>Using Express session, we can also store user preferences for a web application. For example, we can store a user's language preference and display the website using the language the user prefers each time they visit.</p>
-    <p>Using Express session is quite easy. Developers need to follow a few steps to install the software component and use it in their applications. This way, they can easily store user information in their web application and provide a better user experience.</p>
+    <p>Express session is a tool used in web applications to store user information. For example, when a user logs into a website, we can use Express session to store the user's identity information (username, password, etc.) and user page settings. This way, as the user navigates through the website, session information is stored and the user's interactions on the website continue. In this way, users do not have to log in again each time they move from one page to another.</p>
     </li>
     <li><p>The info here is limited. I strongly suggest the 9th video to get deeper understanding of Express sessions: <a href="https://www.youtube.com/watch?v=39znK--Yo1o&list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2">Express.js tutorial</a></p></li>
 </ul>
