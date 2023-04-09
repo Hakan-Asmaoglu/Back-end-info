@@ -35,14 +35,14 @@
 </p>
 <br>
 <p><b>Types:
-    <ol>
+    <ul>
         <li>Object</li>
         <li>Array</li>
         <li>String</li>
         <li>Number</li>
         <li>Boolean</li>
         <li>Null</li>
-    </ol>
+    </ul>
 </b></p>
 <br>
 <p>
