@@ -149,5 +149,5 @@
     <li>
     <p>Express session is a tool used in web applications to store user information. For example, when a user logs into a website, we can use Express session to store the user's identity information (username, password, etc.) and user page settings. This way, as the user navigates through the website, session information is stored and the user's interactions on the website continue. In this way, users do not have to log in again each time they move from one page to another.</p>
     </li>
-    <li><p>The info here is limited. I strongly suggest the 9th video to get deeper understanding of Express sessions: <a href="https://www.youtube.com/watch?v=39znK--Yo1o&list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2">Express.js tutorial</a></p></li>
+    <li><p>The info here is limited. I strongly suggest the 9th video to get deeper understanding of Express sessions: <a href="https://www.youtube.com/watch?v=39znK--Yo1o&list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2">Express.js tutorial.</a> This tutorial also contains some other parts that mentioned in this doc before.</p></li>
 </ul>
