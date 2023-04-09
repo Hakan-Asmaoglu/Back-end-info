@@ -1,5 +1,4 @@
 <h2>Routing</h2>
-<hr>
 <p>Basically used for leading the user to wanted URL</p>
 <br>
 <p><b>As an example:</b></p>
