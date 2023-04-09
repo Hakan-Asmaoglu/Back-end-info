@@ -49,37 +49,10 @@
     <b>Example:</b>
     <p>
         <b>Object:</b> { "name":"John", "age":30, "car":null } <br>
-        <b>Array:</b> ["John", 30, true, null] <br>
-        <b>String:</b> "John" <br>
-        <b>Number:</b> 30 <br>
+        <b>Array:</b> ["Ford", "BMW", "Fiat"] <br>
+        <b>String:</b> "John Doe" <br>
+        <b>Number:</b> 123 <br>
         <b>Boolean:</b> true <br>
         <b>Null:</b> null <br>
     </p>
 </p>
-<br>
-<p><b>Example of json file:</b></p>
-<p><b>data.json</b></p>
-<p><b>{</b></p>
-<p><b>    "name": "John",</b></p>
-<p><b>    "age": 30,</b></p>
-<p><b>    "cars": [ "Ford", "BMW", "Fiat" ]</b></p>
-<p><b>}</b></p>
-<br>
-<p><b>Example of json file with array:</b></p>
-<p><b>data.json</b></p>
-<p><b>[</b></p>
-<p><b>    { "name":"John", "age":30, "car":null },</b></p>
-<p><b>    { "name":"Peter", "age":10, "car":null },</b></p>
-<p><b>    { "name":"Amy", "age":20, "car":"car" },</b></p>
-<p><b>    { "name":"Hannah", "age":40, "car":null },</b></p>
-<p><b>    { "name":"Michael", "age":30, "car":"car" }</b></p>
-<p><b>]</b></p>
-<br>
-<p><b>Example of json file with array of objects:</b></p>
-<p><b>data.json</b></p>
-<p><b>[</b></p>
-<p><b>    { "name":"John", "age":30, "cars": [ "Ford", "BMW", "Fiat" ] },</b></p>
-<p><b>    { "name":"Peter", "age":10, "cars": [ "Ford" ] },</b></   <b>Example:</b>
-    <br>
-    
-</b></p>
