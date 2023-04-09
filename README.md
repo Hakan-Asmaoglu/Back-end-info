@@ -3,9 +3,9 @@
 <br>
 <p><b>As an example:</b></p>
 <p>
-  User clicks on All cards from the menu. In order to reach All cards, the URL
-  adress has to be ../Frames/allcards.html(<b>example</b>) in our case. But we
-  do not want user to write it to browser Instead, we route "All cards" in menu
+  User clicks on "All cards" from the menu. In order to reach "All cards" page, the URL
+  adress has to be ../blabla/allcards.html(<b>example</b>). But we
+  do not want user to write it to browser. Instead, we route "All cards" in menu
   to that specific url.
 </p>
 <br>
