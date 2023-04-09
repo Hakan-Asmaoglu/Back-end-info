@@ -120,18 +120,25 @@
             <li> <b>req.headers :</b> An object containing the request’s HTTP headers.</li>
             <li> <b>req.cookies :</b> An object containing the cookies sent by the request.</li>
             <li> <b>req.signedCookies :</b> An object containing the signed cookies sent by the request, unsigned and ready for use.</li>
-            <li> <b>req.ip :</b> A string containing the remote IP address of the request.</li>
-            <li> <b>req.ips :</b> An array of strings containing the remote IP addresses of the request.</li>
             <li> <b>req.path :</b> A string containing the path part of the request URL.</li>
-            <li> <b>req.host :</b> A string containing the hostname derived from the Host HTTP header.</li>
-            <li> <b>req.hostname :</b> A string containing the hostname derived from the Host HTTP header.</li>
-            <li> <b>req.fresh :</b> A boolean property, “true” when the request is fresh, otherwise “false”.</li>
-            <li> <b>req.stale :</b> A boolean property, “true” when the request is stale, otherwise “false”.</li>
-            <li> <b>req.xhr :</b> A boolean property, “true” when the request’s X-Requested-With header field is “XMLHttpRequest”, otherwise “false”.</li>
-            <li> <b>req.protocol :</b> A string containing the request protocol string: “http” or “https” when requested with TLS. When the “trust proxy” setting is enabled the “X-Forwarded-Proto” header field will be trusted and used.</li>
-            <li> <b>req.secure :</b> A boolean property, “true” when the request is encrypted, otherwise “false”.</li>
-            <li> <b>req.subdomains :</b> An array of subdomains.</li>
-            <li> <b>req.accepts(types) :</b> Checks if the request’s Accept HTTP header field contains the specified content type(s). Returns the best match, or “false” if no match is found.</li>
-            <li>And more</li>
+            <li> <b>req.method :</b> The HTTP method of the request (e.g. GET, POST, etc.).</li>
+            <li> <b>req.protocol :</b> The protocol of the request (e.g. HTTP or HTTPS)..</li> 
+            <li> <b>req.route :</b> The current route object that was matched by the request.</li> 
+            <li>And much more...</li>
         </ul>
+        <li> <b>Response object</b>
+            <p>The response object is used by the server to send a response back to the client. The response typically contains an HTTP status code, headers, and any data being sent in the response body. The status code indicates whether the request was successful or not, and the data in the response body can contain any information that the server wants to send back to the client.</p>
+            <p>Here are common response objects in Express.js</p>
+            <ul>
+                <li> <b>res.send() :</b> Sends a response of various types, such as a string, object, or array.</li>
+                <li> <b>res.json() :</b> Sends a JSON response.</li>
+                <li> <b>res.sendFile() :</b> Sends a file as an attachment or a download.</li>
+                <li> <b>res.redirect() :</b> Redirects the client to a different URL..</li>
+                <li> <b>res.status() :</b> Sets the HTTP status code for the response.</li>
+                <li> <b>res.cookie() :</b> Sets a cookie in the response.</li>
+                <li> <b>res.clearCookie() :</b> Clears a cookie from the response.</li>
+                <li> <b>res.setHeader():</b> Sets an HTTP header for the response.</li>
+                <li> <b>res.format() :</b> Formats the response based on the content type requested by the client.</li>
+                <li> <b>res.render() :</b> Renders a view template with data and sends the HTML as a response.</li>
+                <li>And much more...</li>
 </ul>
