@@ -22,10 +22,10 @@
 </p><br>
 <p>Then we will write the syntax to reach specific URL. After all URL will automatically change and "All cards" page will display.</p>
 <br>
-<h2>Json methods</h2>
+<h2>JSON methods</h2>
 <p>JSON methods are important because they allow us to work with data in JSON format, which is a common way of exchanging data between web applications and services. When data is exchanged over the internet, it needs to be in a format that both the sending and receiving systems can understand. JSON is a lightweight and easy-to-read format that is widely supported by different programming languages.</p>
 <br>
-<p> <b>In our case we will use it to:</b>
+<p> <b>In our case we will use JSON to:</b>
     <ul>
         <li>Receive request from the user</li>
         <li>Send response to the user</li>
