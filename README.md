@@ -77,6 +77,7 @@
 <br>
 <b>JSON.parse() with a reviver function:</b>
 <br>
+<br>
 <p>This method allows you to customize how the JSON string is parsed and converted into a JavaScript object. You can pass a reviver function as the second argument to JSON.parse(), and it will be called for each key-value pair in the JSON string. The function can modify the value or even delete it by returning undefined. Here's an example:</p>
 <p>
     <p>let jsonString = '{ "name": "apple", "color": "red" }';
@@ -91,6 +92,7 @@
 </p>
 <br>
 <b>JSON.stringify() with a replacer function:</b>
+<br>
 <br>
 <p>This method allows you to customize how the JavaScript object is converted into a JSON string. You can pass a replacer function as the second argument to JSON.stringify(), and it will be called for each key-value pair in the object. The function can modify the value or even delete it by returning undefined. Here's an example:</p>
 <p>
