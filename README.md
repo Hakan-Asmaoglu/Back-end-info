@@ -51,7 +51,7 @@
         <b>Object:</b> { "name":"John", "age":30, "car":null } <br>
         <b>Array:</b> ["Ford", "BMW", "Fiat"] <br>
         <b>String:</b> "John Doe" <br>
-        <b>Number:</b> 123 <br>
+        <b>Number:</b> 123 <br> 
         <b>Boolean:</b> true <br>
         <b>Null:</b> null <br>
     </p>
@@ -61,10 +61,14 @@
     <b>JSON.stringfy() method</b>
     <p>Converts a JavaScript object or value to a JSON string.</p>
     <p>Example: <b>JSON.stringfy({name: "John", age: 30})</b></p>
+    <p>This will display as:</p>
+    <p><b>{"name":"John", "age":30}</b></p>
 </p>
 <br>
 <p>
     <b>JSON.parse() method</b>
     <p>Converts a JSON string into a JavaScript object.</p>
     <p>Example: <b>JSON.parse('{"name":"John", "age":30, "car":null}')</b></p>
+    <p>This will display as:</p>
+    <p><b>{name: "John", age: 30, car: null}</b></p>
 </p>
