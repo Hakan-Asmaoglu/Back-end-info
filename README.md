@@ -163,11 +163,15 @@
                 <br>
                 <b>With postman we can:</b>
                 <p> <b>Test our checkout process:</b> We can simulate the login process by sending test orders to our backend system. This helps us identify any issues or errors in the process and make sure everything is working correctly.</p>
-                <p> <b>Monitor our inventory:</b> </p>
+                <p> <b>Monitor our inventory:</b> We can use Postman to check our numbers of items in our inventory. We can do this even periodically, in other words if we would make a real e-commerce shop we could check the amount of items in stock and we would never have the risk of stockouts.</p>
+                <p> <b>Integration testing:</b> If we have integrated our e-commerce shop with other systems or APIs, we can use Postman to test the integration and ensure that everything is working correctly.</p>
+                <p> <b>Automation testing:</b> We can use Postman to automate our testing process by creating scripts that automatically test different aspects of our shop, such as the search function, shopping cart, etc.</p>
+                <p> <b>Load testing:</b> Postman can help us simulate high traffic loads on our e-commerce shop by sending multiple requests simultaneously. So if we would make a real e-commerce shop we would identify any performance issues and optimize our system for high traffic.</p>
             </li>
         </ul>
     </li>
     <li>
+        <p>In summary, Postman is a versatile tool that we can use to improve our shop's functionality, performance, and reliability. By using Postman, we can streamline our testing process and ensure that our shop is running smoothly.</p>
         <p>Here is our team <a href="https://app.getpostman.com/join-team?invite_code=543ca6d41d84a23790f96ca479d8703e&target_code=3b48e90c0bdbc094cde86bcc6e82e710">link</a> </p>
     </li>
 </ul>
