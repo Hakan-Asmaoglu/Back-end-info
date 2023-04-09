@@ -46,7 +46,7 @@
 </b></p>
 <br>
 <p>
-    <b>Example:</b>
+    <b>Examples:</b>
     <p>
         <b>Object:</b> { "name":"John", "age":30, "car":null } <br>
         <b>Array:</b> ["Ford", "BMW", "Fiat"] <br>
@@ -55,4 +55,16 @@
         <b>Boolean:</b> true <br>
         <b>Null:</b> null <br>
     </p>
+</p>
+<br>
+<p>
+    <b>JSON.stringfy() method</b>
+    <p>Converts a JavaScript object or value to a JSON string.</p>
+    <p>Example: <b>JSON.stringfy({name: "John", age: 30})</b></p>
+</p>
+<br>
+<p>
+    <b>JSON.parse() method</b>
+    <p>Converts a JSON string into a JavaScript object.</p>
+    <p>Example: <b>JSON.parse('{"name":"John", "age":30, "car":null}')</b></p>
 </p>
