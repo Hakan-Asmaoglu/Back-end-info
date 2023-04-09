@@ -26,12 +26,12 @@
 <p>Json is a format for storing and transporting data. It is often used when data is sent from a server to a web page.</p>
 <br>
 <p> <b>In our case we will use it to:</b>
-    <ol>
+    <ul>
         <li>Receive request from the user</li>
         <li>Send response to the user</li>
         <li>Receive data from the user</li>
         <li>Transfer data to browser</li>
-    </ol>
+    </ul>
 </p>
 <br>
 <p><b>Types:
