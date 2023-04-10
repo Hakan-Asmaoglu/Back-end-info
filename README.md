@@ -194,12 +194,11 @@
                 }
                 module.exports = myModule;
             </code>
-            </pre>
             <p>Here is the file "index.js" that we want to import the module:</p>
-            <pre>
             <code>
                 const myModule = require("./myModule");
                 myModule(); //output is "Hello,world"
-            </pre>
+            </code>
+        </pre>
     </li>
 </ul>
