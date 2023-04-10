@@ -63,13 +63,13 @@
     <pre>
         <p>Example:</p>
         <code>
-            clet jsonString = '{ "name": "apple", "color": "red" }';
+            let jsonString = '{ "name": "apple", "color": "red" }';
         </code>
         <code>
             let jsonObject = JSON.parse(jsonString);
         </code>
         <code>
-            onsole.log(jsonObject.name); // output: "apple"
+            console.log(jsonObject.name); // output: "apple"
         </code>
     </pre>
 </p>
@@ -77,10 +77,18 @@
 <p>
     <b>JSON.parse() method</b>
     <p>Converts a JSON string into a JavaScript object.</p>
-    <p> <b>Example:</b> </p>
-    <p>let jsonObject = { name: "apple", color: "red" };</p>
-    <p>let jsonString = JSON.stringify(jsonObject);</p>
-    <p><b>console.log(jsonString); // output: '{ "name": "apple", "color": "red" }'</b></p>
+    <pre>
+        <p>Example:</p>
+        <code>
+            let jsonObject = { name: "apple", color: "red" };
+        </code>
+        <code>
+            let jsonString = JSON.stringify(jsonObject);
+        </code>
+        <code>
+            console.log(jsonString); // output: '{ "name": "apple", "color": "red" }'
+        </code>
+    </pre>
 </p>
 <br>
 <b>JSON.parse() with a reviver function:</b>
@@ -88,15 +96,23 @@
 <br>
 <p>This method allows you to customize how the JSON string is parsed and converted into a JavaScript object. You can pass a reviver function as the second argument to JSON.parse(), and it will be called for each key-value pair in the JSON string. The function can modify the value or even delete it by returning undefined. Here's an example:</p>
 <p>
-    <p>let jsonString = '{ "name": "apple", "color": "red" }';
-    </p>
-    <p>let jsonObject = JSON.parse(jsonString, (key, value) => {
-        if (key === 'color') {
-            return 'green';
-        }
-        return value;
-    });</p>
-    <p>console.log(jsonObject.color); // output: "green"</p>
+    <pre>
+        <p>Example:</p>
+        <code>
+            let jsonString = '{ "name": "apple", "color": "red" }';
+        </code>
+        <code>
+            let jsonObject = JSON.parse(jsonString, (key, value) => {
+                if (key === 'color') {
+                    return 'green';
+                }
+                return value;
+            });
+        </code>
+        <code>
+            console.log(jsonObject.color); // output: "green"
+        </code>
+    </pre>
 </p>
 <br>
 <b>JSON.stringify() with a replacer function:</b>
