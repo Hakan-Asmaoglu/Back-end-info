@@ -120,15 +120,23 @@
 <br>
 <p>This method allows you to customize how the JavaScript object is converted into a JSON string. You can pass a replacer function as the second argument to JSON.stringify(), and it will be called for each key-value pair in the object. The function can modify the value or even delete it by returning undefined. Here's an example:</p>
 <p>
-    <p>let jsonObject = { name: "apple", color: "red" };
-    </p>
-    <p>let jsonString = JSON.stringify(jsonObject, (key, value) => {
-        if (key === 'color') {
-            return undefined;
-        }
-        return value;
-    });</p>
-    <p>console.log(jsonString); // output: '{ "name": "apple" }'</p>
+    <pre>
+        <p>Example:</p>
+        <code>
+            let jsonObject = { name: "apple", color: "red" };
+        </code>
+        <code>
+            let jsonString = JSON.stringify(jsonObject, (key, value) => {
+                if (key === 'color') {
+                    return undefined;
+                }
+                return value;
+            });
+        </code>
+        <code>
+            console.log(jsonString); // output: '{ "name": "apple" }'
+        </code>
+    </pre>
 </p>
 <br>
 <h2>Request and response objects</h2>
