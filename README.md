@@ -60,10 +60,18 @@
 <p>
     <b>JSON.stringfy() method</b>
     <p>Converts a JavaScript object or value to a JSON string.</p>
-    <p> <b>Example:</b> </p>
-    <p>let jsonString = '{ "name": "apple", "color": "red" }';</p>
-    <p>let jsonObject = JSON.parse(jsonString);</p>
-    <p><b>console.log(jsonObject.name); // output: "apple"</b></p>
+    <pre>
+        <p>Example:</p>
+        <code>
+            clet jsonString = '{ "name": "apple", "color": "red" }';
+        </code>
+        <code>
+            let jsonObject = JSON.parse(jsonString);
+        </code>
+        <code>
+            onsole.log(jsonObject.name); // output: "apple"
+        </code>
+    </pre>
 </p>
 <br>
 <p>
@@ -187,14 +195,14 @@
         <p>Module export feature allows us to define reusable code in one file and use it in another file. The code you want to make available to other files is exported using the "module.exports" or "exports" object.</p>
         <p>Here is an example:</p>
         <pre>
-            <p>Here is the file "myModule.js" that we want to export:</p>
+            <p>The file "myModule.js" that we want to export:</p>
             <code>
                 const myModule = () => {
                     console.log("Hello World");
                 }
                 module.exports = myModule;
             </code>
-            <p>Here is the file "index.js" that we want to import the module:</p>
+            <p>The file "index.js" that we want to import the module:</p>
             <code>
                 const myModule = require("./myModule");
                 myModule(); //output is "Hello,world"
