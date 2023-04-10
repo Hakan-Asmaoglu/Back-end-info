@@ -217,8 +217,8 @@
 <ul>
     <li>
         <p>Module export feature allows us to define reusable code in one file and use it in another file. The code you want to make available to other files is exported using the "module.exports" or "exports" object.</p>
-        <p>Here is an example:</p>
         <pre>
+            <p>Example:</p>
             <p>The file "myModule.js" that we want to export:</p>
             <code>
                 const myModule = () => {
